@@ -18,16 +18,23 @@
   background: linear-gradient(to right, gray , #FFFFFF); /* Standard syntax */
 ">
 
-  <center><br><br><br><form id="frm1" style="color:white;font-size:20px;">
-    B: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" size="4"><br>
-    M: <input type="text" size="4"><br>
-    <span id="eth">E: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" size="4"><br></span>
-    <span id="lit">L: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" size="4"><br></span>
-    <span id="dol">D: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" size="4"><br></span>
-    <span id="ass">As: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" size="4"><br></span><br>
+  <center><br><h1>Frank Golley</h1><br><form id="frm1" style="color:white;font-size:20px;">
+    BasicType: <input type="text" size="4"><br>
+    MainType: <input type="text" size="4"><br>
+    <span id="eth">thuru: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" size="4"><br></span>
+    <span id="lit">Light: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" size="4"><br></span>
+    <span id="dol">Dollars: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" size="4"><br></span>
+    <span id="ass">Asset: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" size="4"><br></span><br>
     <img src="eth.png" id="ethp" onclick="showeth()" width="30px" height="30px"/>&nbsp&nbsp&nbsp<img src="litecoin.png" onclick="showlit()" id="litp" width="30px" height="30px"/>&nbsp&nbsp&nbsp<img src="dollar.png" id="dolp" onclick="showdol()" width="30px" height="30px"/>&nbsp&nbsp&nbsp<img src="house.png" id="assp" onclick="showass()" width="30px" height="30px"/><br>
-  </form>
-
+  </form><br>
+	<select>
+  <option value="volvo">Type 1</option>
+  <option value="saab">Type 2</option>
+  <option value="mercedes">Type 3</option>
+  <option value="audi">Type 4</option>
+</select><br><br>
+Save Data?  <input type="radio" name="gender" value="male"> Yes
+  <input type="radio" name="gender" value="female"> No<br>
 <h1 id="three" style="color:white;font-size:50px;"></h1>
 <button onclick="btcprice()" id="idee">OUTPUT TOTAL</button>
 
