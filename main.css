@@ -1,0 +1,56 @@
+body {
+	background: #1e3c72;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.sf-main-sidebar {
+    background-color: rgba(51, 110, 123, 0.5);
+    padding: 20px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #19B5FE;
+    color: white;
+}
+.sf-main-body {
+	background-color: rgba(51, 110, 123, 0.5);
+	border: 1px solid #19B5FE;
+    padding: 20px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #19B5FE;
+    color: white;
+    min-height: 255px;
+}
+.sf-username {
+    font-size: 21px;
+    padding-bottom: 20px;
+    color: white;
+}
+.sf-username-block p {
+	margin-bottom: 5px;
+}
+.sf-bottom-banner {
+	max-width: 100%;
+	width: 728px;
+	height: 90px;
+	background-color: #f5f5f5;
+	color: grey;
+}
+.sf-chart-info {
+    text-align: center;
+    font-size: 21px;
+}
+.sf-chart-info .nominal {
+    background-color: #478dad;
+    padding: 1px 3px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 414px) {
+	.sf-main-sidebar {
+		margin-bottom: 20px;
+	}
+}
